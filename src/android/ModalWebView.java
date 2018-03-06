@@ -54,16 +54,12 @@ public class ModalWebView extends CordovaPlugin {
       callbackContext.success();
     } else if (action.equals("setOrientation")) {
       String orientation = args.getString(0);
-      switch (orientation) {
-        case "portrait":
+      if ("portrait".equals(orientation)) {
           this.orientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT;
-          break;
-        case "landscape":
+      } else if ("landscape".equals(orientation)) {
           this.orientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
-          break;
-        default:
+      } else {
           this.orientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
-          break;
       }
       callbackContext.success();
     } else {

@@ -19,11 +19,6 @@
     </js-module>
 
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="ModalWebView">
-                <param name="android-package" value="ore.cordova.modalwebview.ModalWebView" />
-            </feature>
-        </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
@@ -39,7 +34,6 @@
         <source-file src="src/android/xml/bottom_to_top.xml" target-dir="res/anim" />
         <source-file src="src/android/xml/top_to_bottom.xml" target-dir="res/anim" />
         <source-file src="src/android/xml/modalwebview.xml" target-dir="res/values" />
-        <source-file src="src/android/img/ic_close_black_48dp.png" target-dir="res/drawable-port-hdpi" />
         <framework src="com.androidadvance:topsnackbar:1.1.1" />
     </platform>
 

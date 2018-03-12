@@ -19,11 +19,6 @@
     </js-module>
 
     <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="ModalWebView">
-                <param name="android-package" value="ore.cordova.modalwebview.ModalWebView" />
-            </feature>
-        </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>

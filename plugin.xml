@@ -35,7 +35,7 @@
         <source-file src="src/android/xml/top_to_bottom.xml" target-dir="res/anim" />
         <source-file src="src/android/xml/modalwebview.xml" target-dir="res/values" />
         <resource-file src="src/android/img/ic_close_black_48dp.png" target="res/drawable-port-hdpi/ic_close_black_48dp.png" />
-        <framework custom="true" src="lib/TSnackBar/topsnackbar/build.gradle" type="gradleReference" />
+        <framework custom="true" src="lib/TSnackBar/topsnackbar"/>
     </platform>
 
     <platform name="ios">

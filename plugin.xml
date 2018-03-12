@@ -34,7 +34,7 @@
         <source-file src="src/android/xml/bottom_to_top.xml" target-dir="res/anim" />
         <source-file src="src/android/xml/top_to_bottom.xml" target-dir="res/anim" />
         <source-file src="src/android/xml/modalwebview.xml" target-dir="res/values" />
-        <source-file src="src/android/img/ic_close_black_48dp.png" target-dir="res/hogehoge" />
+        <source-file src="src/android/img/ic_close_black_48dp.png" target-dir="res/values" />
         <framework src="com.androidadvance:topsnackbar:1.1.1" />
     </platform>
 
